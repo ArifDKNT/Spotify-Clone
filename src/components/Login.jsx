@@ -3,13 +3,13 @@ import styled from "styled-components";
 import axios from 'axios';
 import {Buffer} from 'buffer';
 
-const client_id = 'ecb36e831a374db5992e7b3142da3178';
-const client_secret = 'd70452a8699447ee95e6a45da3e7e905';
+const client_id = '';
+const client_secret = '';
 export default function Login() {
 
   const handleClick = async () => {
-    const client_id = "ecb36e831a374db5992e7b3142da3178";
-    const redirect_uri = "http://localhost:3000/";
+    const client_id = client_id;
+    const redirect_uri = client_secret;
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
